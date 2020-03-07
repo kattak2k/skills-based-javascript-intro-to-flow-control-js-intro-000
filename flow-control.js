@@ -29,12 +29,17 @@ function ternaryTeenager(age) {
 }
 
 function switchAge(age) {
+  var value = ""
   switch (age) {
     case age >= 13:
     case age <= 19:
-      return "You are a teenager";
+      value = "You are a teenager";
       break;
-    default:
-      return  "You have an age";
+    case age >= 13:
+    case age <= 19:
+      value =  "You have an age";
+      break;
   }
+  return value
+  
 }
