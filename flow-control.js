@@ -41,5 +41,4 @@ function switchAge(age) {
       break;
   }
   return value
-  
 }
