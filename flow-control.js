@@ -35,5 +35,4 @@ function switchAge(age) {
     case age < 100: return "You have an age";
     default: return "not an age";
   }
-
 }
